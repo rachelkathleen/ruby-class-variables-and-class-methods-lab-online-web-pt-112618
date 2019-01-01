@@ -29,6 +29,7 @@ class Song
   def self.artist_count
     artist_count = {}
     @@artists.each do {|artist| artisting_count[artist][@@artists.count(artist)]}
+      artist_count
   end
 
 end
