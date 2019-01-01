@@ -26,4 +26,9 @@ class Song
     @@genres.uniq
   end
 
+  def self.artist_count
+    artist_count = {}
+    @@artists.each do {|artist| artisting_count[artist][@@artists.count(artist)]}
+  end
+
 end
