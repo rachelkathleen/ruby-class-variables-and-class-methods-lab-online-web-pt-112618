@@ -30,6 +30,7 @@ class Song
     artist_count = {}
     @@artists.each do {|a| artist_count[a][@@artists.count(a)]}
       artist_count
+    end
   end
 
 end
